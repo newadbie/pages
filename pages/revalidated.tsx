@@ -14,7 +14,6 @@ export const getStaticProps: GetStaticProps = async () => {
       anyData: "My prepared string",
     },
     revalidate: 10,
-    notFound: true,
   };
 };
 
